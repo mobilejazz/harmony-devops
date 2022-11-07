@@ -1,0 +1,9 @@
+# (Optional file) docker-compose.yml for local development
+
+services:
+  backend:
+    extends:
+      file: compose.yml
+      service: backend
+    environment:
+      - SOME_CUSTOM_LOCAL_ENV=0

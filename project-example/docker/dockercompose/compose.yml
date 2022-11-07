@@ -1,0 +1,7 @@
+# Base docker-compose file
+
+services:
+  backend:
+    image: python:3-alpine
+  db:
+    image: mysql:8
